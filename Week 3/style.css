@@ -1,0 +1,118 @@
+body {
+    transition:background 200ms ease;
+    font-family: 'Baskervville', serif;;
+    background: #e3c4a8;
+  }
+  
+ 
+
+  .begpointleft{
+    background: url(Pointer/pointer-01.png);
+    position: absolute;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    left: -5px;
+    top: calc(70vh - 100px);
+  }
+  
+  .begpointright{
+    background: url(Pointer/pointer-02.png);
+    position: absolute;
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+    right: -5px;
+    top: 200px;
+  }
+  
+
+  @media only screen and (max-width: 1725px) and (max-height: 968px) and (min-height: 968px) and (min-width: 1725px){
+    .welcome{
+        text-align: center;
+        font-size: 70px;
+        margin-top: 400px;
+      }
+      
+      .welcome2{
+        text-align: center;
+        font-size: 50px;
+        padding-top: 5px;
+      }
+  }
+
+
+
+  @media only screen and (max-height: 700px){
+    body{
+      background: #4592af;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) and (max-height: 432px) and (min-height: 432px){
+    body{
+      background: #4592af;
+    }
+
+    .congrats{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .rightpointright{
+      background: url(Pointer/pointer-04.png);
+      position: absolute;
+      background-size: 200px;
+      width: 200px;
+      height: 200px;
+      right: -10px;
+      top: 211px;
+      z-index: 3;
+    }
+  
+    .rightpointleft{
+      background: url(Pointer/pointer-03.png);
+      position: absolute;
+      background-size: 200px;
+      width: 200px;
+      height: 200px;
+      left: -6px;
+      top: 212px;
+      z-index: 3;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) and (max-height: 1000px) and (min-height: 500px){
+    body {
+      padding:10vw;
+      background:red;
+    }
+  
+    .wrong{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 400px;
+    }
+
+    .wrongpointleft{
+      background: url(Pointer/pointer-05.png);
+      position: absolute;
+      background-size: 200px;
+      width: 200px;
+      height: 200px;
+      left: -5px;
+      top: 584px;
+    }
+    .wrongpointright{
+      background: url(Pointer/pointer-06.png);
+      position: absolute;
+      background-size: 200px;
+      width: 200px;
+      height: 200px;
+      right: -9px;
+      top: 209px;
+    }
+  
+  }
+  
