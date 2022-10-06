@@ -1,35 +1,60 @@
-const imgButton = document.getElementById("imageBtn1")
-const imgButton1 = document.getElementById("imageBtn2")
-const imgButton2 = document.getElementById("imageBtn3")
-const imgButton3 = document.getElementById("imageBtn4")
+// Buttons
+// const imgButton = document.getElementById("imageBtn1")
+// const imgButton1 = document.getElementById("imageBtn2")
+// const imgButton2 = document.getElementById("imageBtn3")
+// const imgButton3 = document.getElementById("imageBtn4")
 
-const mnElement = document.getElementById("mainElem")
+// const mnElement = document.getElementById("mainElem")
 
 
-const addAnImage = ()=>{
-let imgElem = document.createElement("img")
-imgElem.src = "artfrog.jpeg"
-imgElem.alt = "frog with barret"
-function enlargeImg() {
-    // Set image size to 1.5 times original
-    img.style.transform = "scale(1.5)"
-    // Animation effect
-    img.style.transition = "transform 0.25s ease"
+// const addAnImage = ()=>{
+// let imgElem = document.createElement("img")
+// imgElem.src = "artfrog.jpeg"
+// imgElem.alt = "frog with barret"
+
+
+// mnElement.appendChild(imgElem)
+
+// }
+
+
+// imgButton.addEventListener("click", addAnImage)
+
+// Alt gallery version
+function galleryFunction1(smallImg){
+    let fullImg = document.getElementById('imageBtn1')
+    fullImg.src = smallImg.src
+}
+
+
+
+// Start,Stop
+let nIntervId;
+
+function changeImg() {
+  // check if an interval has already been set up
+  if (!nIntervId) {
+    nIntervId = setInterval(switchImg, 1000)
   }
-  // Function to reset image size
-  function resetImg() {
-    // Set image size to original
-    img.style.transform = "scale(1)"
-    img.style.transition = "transform 0.25s ease"
-
-mnElement.appendChild(imgElem)
-
-}
 }
 
-imgButton.addEventListener("click", addAnImage)
+function switchImg() {
+  const oElem = document.getElementById("imageContainsmall")
+  oElem.className = oElem.className === "start" ? "stop" : "start"
+}
+
+function stopswitchImg() {
+  clearInterval(nIntervId);
+  // release our intervalID from the variable
+  nIntervId = null;
+}
+
+document.getElementById("start").addEventListener("click", switchImg);
+document.getElementById("stop").addEventListener("click", stopswitchImg);
 
 
+
+// Frog world :) title. credit to https://codepen.io/alvarotrigo
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
