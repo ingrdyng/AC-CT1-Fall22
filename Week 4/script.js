@@ -1,8 +1,8 @@
 // Buttons
-// const imgButton = document.getElementById("imageBtn1")
-// const imgButton1 = document.getElementById("imageBtn2")
-// const imgButton2 = document.getElementById("imageBtn3")
-// const imgButton3 = document.getElementById("imageBtn4")
+const imgButton1 = document.getElementById("imageBtn1")
+const imgButton2 = document.getElementById("imageBtn2")
+const imgButton3 = document.getElementById("imageBtn3")
+const imgButton4 = document.getElementById("imageBtn4")
 
 // const mnElement = document.getElementById("mainElem")
 
@@ -17,44 +17,59 @@
 
 // }
 
+let fullImg = document.getElementById('imageViewer')
 
-// imgButton.addEventListener("click", addAnImage)
+
+imgButton1.addEventListener("click", ()=>{
+    fullImg.src = imgButton1.src
+})
+
+imgButton2.addEventListener("click", ()=>{
+    fullImg.src = imgButton2.src
+})
+imgButton3.addEventListener("click", ()=>{
+    fullImg.src = imgButton3.src
+})
+
+imgButton4.addEventListener("click", ()=>{
+    fullImg.src = imgButton4.src
+})
+
 
 // Alt gallery version
 function galleryFunction1(smallImg){
-    let fullImg = document.getElementById('imageBtn1')
     fullImg.src = smallImg.src
 }
 
 
 
 // Start,Stop
-let nIntervId;
+// let nIntervId;
 
-function changeImg() {
-  // check if an interval has already been set up
-  if (!nIntervId) {
-    nIntervId = setInterval(switchImg, 1000)
-  }
-}
+// function changeImg() {
+//   // check if an interval has already been set up
+//   if (!nIntervId) {
+//     nIntervId = setInterval(switchImg, 1000)
+//   }
+// }
 
-function switchImg() {
-  const oElem = document.getElementById("imageContainsmall")
-  oElem.className = oElem.className === "start" ? "stop" : "start"
-}
+// function switchImg() {
+//   const oElem = document.getElementById("imageContainsmall")
+//   oElem.className = oElem.className === "start" ? "stop" : "start"
+// }
 
-function stopswitchImg() {
-  clearInterval(nIntervId);
-  // release our intervalID from the variable
-  nIntervId = null;
-}
+// function stopswitchImg() {
+//   clearInterval(nIntervId);
+//   // release our intervalID from the variable
+//   nIntervId = null;
+// }
 
-document.getElementById("start").addEventListener("click", switchImg);
-document.getElementById("stop").addEventListener("click", stopswitchImg);
+// document.getElementById("start").addEventListener("click", switchImg);
+// document.getElementById("stop").addEventListener("click", stopswitchImg);
 
 
 
-// Frog world :) title. credit to https://codepen.io/alvarotrigo
+// // Frog world :) title. credit to https://codepen.io/alvarotrigo
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
