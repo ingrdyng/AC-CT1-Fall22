@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet"s href="style.css">
+
+    <title>Button World</title>
+
+</head>
+<body>
+    <header>
+
+        <img src="artfrog.jpeg" alt="frog wearing barret" id="imageBtn1">
+        <img src="coolfrog.jpeg" alt="frog wearing baseball cap" id="imageBtn2">
+        <img src="cowboyfrog.jpeg" alt="frog wearing cowboy hat" id="imageBtn3">
+        <img src="gardenfrog.jpeg" alt="frog wearing garden hat" id="imageBtn4">
+
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                            0 1 0 0 0
+                                            0 0 1 0 0
+                                            0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+
+    </header>
+
+    <main id="mainElem"></main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -30,3 +30,6 @@ clrButton.addEventListener("click", ()=>{
     console.log(red)
     mnElement.style.backgroundColor = "rgb(" + red + ", " + green + ", " + blue + ")"
 })
+
+
+
