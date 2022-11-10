@@ -1,0 +1,54 @@
+.interface{
+    z-index: 1;
+    background: url(Interface.gif);
+    position: absolute;
+    background-size: 450px;
+    width: 450px;
+    height: 450px;
+    left: 310px;
+    top: 265px;
+}
+
+.home{
+    cursor:pointer;
+    background: url(frog1.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.home:hover{
+    cursor:pointer;
+    background: url(frog2.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.title{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 410px;
+    margin-left: 850px;
+}
+
+.body{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position:absolute;
+    margin-top: 470px;
+    margin-left: 850px;
+    padding-right: 360px;
+
+}

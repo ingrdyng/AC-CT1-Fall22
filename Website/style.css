@@ -1,0 +1,87 @@
+.title{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 600px;
+    font-family: kepler-std-display, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.type{
+    font-family: kepler-std-display, serif;
+    font-weight: 400;
+}
+
+.nonlinear{
+    position:absolute;
+    font-size: 30px;
+    margin-top: 140px;
+    margin-left: 200px;
+}
+
+.sneeze{
+    cursor:pointer;
+    background: url(01Nonlinear/Nonlinear.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 210px;
+    top: 200px;
+}
+
+
+.time{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 140px;
+    margin-left: 695px;
+}
+
+.butterfly{
+    cursor:pointer;
+    background: url(02Time/TimeOscilation.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 705px;
+    top: 200px;
+  }
+
+.interact{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 140px;
+    margin-left: 1200px;
+}
+
+.molecule{
+    cursor:pointer;
+    background: url(03Interact/molecule.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 1200px;
+    top: 200px;
+  }
+
+.interface{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 560px;
+    margin-left: 200px;
+}
+
+.face{
+    cursor:pointer;
+    background: url(04Interface/Interface.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 208px;
+    top: 620px;
+  }
