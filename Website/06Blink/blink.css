@@ -1,0 +1,116 @@
+.home{
+    cursor:pointer;
+    background: url(frog1.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.home:hover{
+    cursor:pointer;
+    background: url(frog2.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.title{
+    z-index: 1;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 41px;
+    margin-left: 686px;
+}
+
+.body{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position:absolute;
+
+}
+video {
+    width: 30vw;
+    height: 30vh;
+  }
+
+#flash{
+    position: absolute;
+    left: 45px;
+    top: 350px;
+}
+
+#beat{
+    position: absolute;
+    left: 600px;
+    top: 350px;
+}
+
+
+#morse{
+    position: absolute;
+    left: 1155px;
+    top: 350px;
+}
+
+.flashtext{
+    position: absolute;
+    left: 195px;
+    top: 660px;
+}
+
+.beattext{
+    position: absolute;
+    left: 803px;
+    top: 660px;
+}
+
+
+.morsetext{
+    position: absolute;
+    left: 1319px;
+    top: 660px;
+}
+
+.flashdes{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 45px;
+    top: 695px;
+    padding-right: 1200px;
+}
+
+.rhydes{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 600px;
+    top: 695px;
+    padding-right: 607px;
+}
+
+.morsedes{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 1156px;
+    top: 695px;
+    padding-right: 65px;
+}

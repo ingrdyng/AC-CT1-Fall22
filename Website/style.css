@@ -85,3 +85,39 @@
     left: 208px;
     top: 620px;
   }
+
+.interface2{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 560px;
+    margin-left: 695px;
+}
+
+.face2{
+    cursor:pointer;
+    background: url(05Interface2/interface2.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    top: 620px;
+  }
+
+.blink{
+position: absolute;
+font-size: 30px;
+margin-top: 560px;
+margin-left: 1207px;
+}
+
+.led{
+cursor:pointer;
+background: url(06Blink/Blink.gif);
+position: absolute;
+background-size: 300px;
+width: 300px;
+height: 300px;
+left: 1215px;
+top: 620px;
+}
