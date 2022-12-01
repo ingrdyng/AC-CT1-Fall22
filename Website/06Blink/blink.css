@@ -44,20 +44,20 @@ video {
     height: 30vh;
   }
 
-#flash{
+.flash{
     position: absolute;
     left: 45px;
     top: 350px;
 }
 
-#beat{
+.beat{
     position: absolute;
     left: 600px;
     top: 350px;
 }
 
 
-#morse{
+.morse{
     position: absolute;
     left: 1155px;
     top: 350px;
