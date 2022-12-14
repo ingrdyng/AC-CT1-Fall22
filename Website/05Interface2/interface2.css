@@ -1,14 +1,3 @@
-.interface{
-    z-index: 1;
-    background: url(Interface.gif);
-    position: absolute;
-    background-size: 450px;
-    width: 450px;
-    height: 450px;
-    left: 310px;
-    top: 265px;
-}
-
 .home{
     cursor:pointer;
     background: url(frog1.png);
@@ -31,6 +20,16 @@
     top: 8px;
 }
 
+.header{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 41px;
+    margin-left: 686px;
+}
+
 .title{
     font-family: kepler-std-subhead, serif;
     font-weight: 400;
@@ -38,7 +37,7 @@
     font-size: 35px;
     position:absolute;
     margin-top: 410px;
-    margin-left: 850px;
+    margin-left: 993px;
 }
 
 .body{
@@ -48,7 +47,13 @@
     font-size: 20px;
     position:absolute;
     margin-top: 470px;
-    margin-left: 850px;
-    padding-right: 360px;
+    margin-left: 997px;
+    padding-right: 230px;
 
+}
+
+.video{
+    position:absolute;
+    margin-left: 148px;
+    margin-top: 260px
 }
