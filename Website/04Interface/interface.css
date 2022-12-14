@@ -31,6 +31,16 @@
     top: 8px;
 }
 
+.header{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 41px;
+    margin-left: 686px;
+}
+
 .title{
     font-family: kepler-std-subhead, serif;
     font-weight: 400;

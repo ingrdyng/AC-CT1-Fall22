@@ -1,0 +1,108 @@
+.home{
+    cursor:pointer;
+    background: url(frog1.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.home:hover{
+    cursor:pointer;
+    background: url(frog2.png);
+    position: absolute;
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+    left: 11px;
+    top: 8px;
+}
+
+.title{
+    z-index: 1;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    position:absolute;
+    margin-top: 41px;
+    margin-left: 686px;
+}
+
+.body{
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position:absolute;
+
+}
+
+.channel{
+    position: absolute;
+    left: 845px;
+    top: 226px;
+}
+
+
+.multitext{
+    position: absolute;
+    left: 847px;
+    top: 637px;
+}
+
+.process1{
+    background: url(multiprocess.jpg);
+    position: absolute;
+    background-size: 350px;
+    width: 350px;
+    height: 250px;
+    left: 291px;
+    top: 209px;
+}
+
+.process2{
+    background: url(multiprocess2.jpg);
+    position: absolute;
+    background-size: 350px;
+    width: 350px;
+    height: 250px;
+    left: 290px;
+    top: 542px;
+}
+
+
+.processdes{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 292px;
+    top: 470px;
+    padding-right: 1088px;
+}
+
+.processdes2{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 292px;
+    top: 805px;
+    padding-right: 1090px;
+}
+
+.multides{
+    position:absolute;
+    font-family: kepler-std-subhead, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    left: 845px;
+    top: 662px;
+    padding-right: 207px;
+}

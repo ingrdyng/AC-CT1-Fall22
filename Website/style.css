@@ -121,3 +121,21 @@ height: 300px;
 left: 1215px;
 top: 620px;
 }
+
+.ctrl{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 984px;
+    margin-left: 200px;
+    }
+    
+.micro{
+    cursor:pointer;
+    background: url(07Micro/Micro.gif);
+    position: absolute;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    left: 209px;
+    top: 1045px;
+    }
