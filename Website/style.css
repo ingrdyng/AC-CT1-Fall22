@@ -123,19 +123,37 @@ top: 620px;
 }
 
 .ctrl{
-    position: absolute;
-    font-size: 30px;
-    margin-top: 984px;
-    margin-left: 200px;
-    }
-    
+position: absolute;
+font-size: 30px;
+margin-top: 984px;
+margin-left: 200px;
+}
+
 .micro{
-    cursor:pointer;
-    background: url(07Micro/Micro.gif);
-    position: absolute;
-    background-size: 300px;
-    width: 300px;
-    height: 300px;
-    left: 209px;
-    top: 1045px;
-    }
+cursor:pointer;
+background: url(07Micro/Micro.gif);
+position: absolute;
+background-size: 300px;
+width: 300px;
+height: 300px;
+left: 209px;
+top: 1045px;
+}
+
+.music{
+position: absolute;
+font-size: 30px;
+margin-top: 984px;
+margin-left: 689px;
+}
+
+.musicctrl{
+cursor:pointer;
+background: url(08MusicCtrl/Music.gif);
+position: absolute;
+background-size: 300px;
+width: 300px;
+height: 300px;
+left: 698px;
+top: 1045px;
+}
