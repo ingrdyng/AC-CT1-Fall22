@@ -46,33 +46,27 @@
     top: 226px;
 }
 
+.channel2{
+    position: absolute;
+    left: 234px;
+    top: 583px;
+}
 
 .multitext{
     position: absolute;
-    left: 847px;
+    left: 845px;
     top: 637px;
 }
 
 .process1{
-    background: url(multiprocess.jpg);
+    background: url(wire.jpg);
     position: absolute;
-    background-size: 350px;
-    width: 350px;
-    height: 250px;
-    left: 291px;
-    top: 209px;
+    background-size: 435px;
+    width: 435px;
+    height: 304px;
+    left: 243px;
+    top: 178px;
 }
-
-.process2{
-    background: url(multiprocess2.jpg);
-    position: absolute;
-    background-size: 350px;
-    width: 350px;
-    height: 250px;
-    left: 290px;
-    top: 542px;
-}
-
 
 .processdes{
     position:absolute;
@@ -80,10 +74,11 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    left: 292px;
-    top: 470px;
+    left: 242px;
+    top: 500px;
     padding-right: 1088px;
 }
+
 
 .processdes2{
     position:absolute;
@@ -91,9 +86,9 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    left: 292px;
-    top: 805px;
-    padding-right: 1090px;
+    left: -2px;
+    top: 271px;
+    padding-right: 46px;
 }
 
 .multides{
